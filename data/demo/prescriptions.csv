@@ -1,0 +1,20 @@
+patient_id,timestamp,drug,dose,unit,route,doses_per_day,prescriber
+P001,2026-10-13 00:00:00,ceftriaxona,1000,mg,IV,2,Dr. Silva
+P001,2026-10-13 00:00:00,dipirona,1000,mg,IV,4,Dr. Silva
+P001,2026-10-13 00:00:00,enoxaparina,40,mg,SC,1,Dr. Silva
+P001,2026-10-15 18:30:00,meropenem,1000,mg,IV,3,Dr. Costa
+P001,2026-10-15 18:36:00,ceftriaxona,0,mg,IV,0,Dr. Costa
+P001,2026-10-15 19:00:00,noradrenalina,8,mg,IV,1,Dr. Costa
+P001,2026-10-15 20:00:00,noradrenalina,24,mg,IV,1,Dr. Costa
+P001,2026-10-15 21:00:00,dipirona,1000,mg,IV,6,Dr. Costa
+P002,2026-10-14 00:00:00,salbutamol,5,mg,INAL,4,Dra. Lima
+P002,2026-10-14 00:00:00,prednisona,40,mg,VO,1,Dra. Lima
+P002,2026-10-15 12:00:00,salbutamol,5,mg,INAL,6,Dra. Lima
+P003,2026-10-12 00:00:00,omeprazol,20,mg,VO,1,Dr. Souza
+P003,2026-10-12 00:00:00,losartana,50,mg,VO,1,Dr. Souza
+P003,2026-10-15 08:00:00,losartana,50,mg,VO,1,Dr. Souza
+P004,2026-10-12 00:00:00,metoprolol,100,mg,VO,2,Dr. Rocha
+P004,2026-10-12 00:00:00,varfarina,5,mg,VO,1,Dr. Rocha
+P004,2026-10-15 09:00:00,metoprolol,0,mg,VO,0,Dr. Alves
+P004,2026-10-15 11:00:00,acido acetilsalicilico,100,mg,VO,1,Dr. Alves
+P004,2026-10-15 11:12:00,captopril,50,mg,VO,4,Dr. Alves

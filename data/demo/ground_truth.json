@@ -1,0 +1,162 @@
+{
+  "vitals": [
+    {
+      "patient_id": "P001",
+      "modality": "sinais_vitais",
+      "kind": "deterioracao_septica",
+      "start": "2026-10-15T14:00:00",
+      "end": "2026-10-15T23:59:00"
+    },
+    {
+      "patient_id": "P002",
+      "modality": "sinais_vitais",
+      "kind": "dessaturacao",
+      "start": "2026-10-15T03:00:00",
+      "end": "2026-10-15T03:25:00"
+    },
+    {
+      "patient_id": "P002",
+      "modality": "sinais_vitais",
+      "kind": "dessaturacao",
+      "start": "2026-10-15T09:30:00",
+      "end": "2026-10-15T10:10:00"
+    },
+    {
+      "patient_id": "P002",
+      "modality": "sinais_vitais",
+      "kind": "dessaturacao",
+      "start": "2026-10-15T16:12:00",
+      "end": "2026-10-15T16:42:00"
+    },
+    {
+      "patient_id": "P004",
+      "modality": "sinais_vitais",
+      "kind": "crise_hipertensiva",
+      "start": "2026-10-15T10:00:00",
+      "end": "2026-10-15T14:12:00"
+    }
+  ],
+  "prescriptions": [
+    {
+      "patient_id": "P001",
+      "modality": "prescricao",
+      "kind": "escalonamento_abrupto",
+      "start": "2026-10-15T20:00:00",
+      "end": "2026-10-15T20:00:00"
+    },
+    {
+      "patient_id": "P001",
+      "modality": "prescricao",
+      "kind": "alteracoes_frequentes",
+      "start": "2026-10-15T18:30:00",
+      "end": "2026-10-15T21:00:00"
+    },
+    {
+      "patient_id": "P001",
+      "modality": "prescricao",
+      "kind": "dose_acima_maxima",
+      "start": "2026-10-15T21:00:00",
+      "end": "2026-10-15T21:00:00"
+    },
+    {
+      "patient_id": "P004",
+      "modality": "prescricao",
+      "kind": "suspensao_abrupta",
+      "start": "2026-10-15T09:00:00",
+      "end": "2026-10-15T09:00:00"
+    },
+    {
+      "patient_id": "P004",
+      "modality": "prescricao",
+      "kind": "interacao_medicamentosa",
+      "start": "2026-10-15T11:00:00",
+      "end": "2026-10-15T11:00:00"
+    },
+    {
+      "patient_id": "P004",
+      "modality": "prescricao",
+      "kind": "dose_acima_maxima",
+      "start": "2026-10-15T11:12:00",
+      "end": "2026-10-15T11:12:00"
+    }
+  ],
+  "movement": [
+    {
+      "patient_id": "P001",
+      "modality": "movimentacao",
+      "kind": "imobilidade_prolongada",
+      "start": "2026-10-15T15:00:00",
+      "end": "2026-10-15T18:59:00"
+    },
+    {
+      "patient_id": "P002",
+      "modality": "movimentacao",
+      "kind": "agitacao_noturna",
+      "start": "2026-10-15T02:12:00",
+      "end": "2026-10-15T02:41:00"
+    },
+    {
+      "patient_id": "P002",
+      "modality": "movimentacao",
+      "kind": "saida_leito_noturna",
+      "start": "2026-10-15T02:40:00",
+      "end": "2026-10-15T02:51:00"
+    },
+    {
+      "patient_id": "P002",
+      "modality": "movimentacao",
+      "kind": "queda",
+      "start": "2026-10-15T02:48:00",
+      "end": "2026-10-15T02:59:00"
+    }
+  ],
+  "audio": [
+    {
+      "patient_id": "P001",
+      "modality": "audio",
+      "kind": "fadiga_vocal",
+      "start": "2026-10-15T13:00:00",
+      "end": "2026-10-15T13:00:00"
+    },
+    {
+      "patient_id": "P002",
+      "modality": "audio",
+      "kind": "dificuldade_respiratoria",
+      "start": "2026-10-15T13:00:00",
+      "end": "2026-10-15T13:00:00"
+    },
+    {
+      "patient_id": "P004",
+      "modality": "audio",
+      "kind": "disartria",
+      "start": "2026-10-15T13:00:00",
+      "end": "2026-10-15T13:00:00"
+    }
+  ],
+  "video": {
+    "patient_id": "P004",
+    "session_start": "2026-10-15T12:00:00",
+    "events": [
+      {
+        "kind": "amplitude_reduzida",
+        "start_s": 24,
+        "end_s": 40
+      },
+      {
+        "kind": "compensacao_tronco",
+        "start_s": 24,
+        "end_s": 40
+      },
+      {
+        "kind": "movimento_irregular",
+        "start_s": 40,
+        "end_s": 48
+      },
+      {
+        "kind": "queda",
+        "start_s": 52,
+        "end_s": 60
+      }
+    ]
+  }
+}

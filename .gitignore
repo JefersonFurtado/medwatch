@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.env
+outputs/
+models/*.pt
+models/*.caffemodel
+models/*.prototxt
+models/*.onnx
+data/raw/
+*.log
+.DS_Store
